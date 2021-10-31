@@ -1,5 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font: 14px Helvetica, Arial, sans-serif;
+}
+
+/* Header
+-------------------------------------------------*/
+.topo {
+    position: relative;
+    height: 15.4em;
+}
+
+.area-logo {
+    background: url(../img/topo-imagem-principal2.png) no-repeat;
+    position: absolute;
+    width: 798px;
+    height: 250px;
+}
+
+.logo {
+    background: url(../img/logo.png) no-repeat;
+    width: 200px;
+    height: 80px;
+    margin: 10px 15px;
+}
+
+.logo h1 {
+    visibility: hidden;
+}
+
+.area-menu {
+    background: url(../img/topo-imagem-lateral.png) no-repeat;
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    left: 470px;
 }
 
 /* Responsividade
@@ -26,6 +64,7 @@ body {
 /* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
 @media (min-width: 1200px) {
     .container {
-        max-width: 900px;
+        max-width: 1180px;
+        min-width: 720px;
     }
 }
