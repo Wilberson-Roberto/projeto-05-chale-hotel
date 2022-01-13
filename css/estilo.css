@@ -4,7 +4,6 @@ body {
 }
 
 header .container {
-    background: #cab476;
     position: relative;
     height: 250px;
     min-width: 650px;
@@ -28,7 +27,7 @@ header .container {
     text-indent: -9000px;
 }
 
-#menu-lateral {
+#area-menu {
     background: url(../img/topo-imagem-lateral.png) no-repeat;
     width: 450px;
     height: 250px;
@@ -37,33 +36,23 @@ header .container {
     right: 0;
 }
 
-#menu-cidades a {
-    font-size: 0.7rem;
-    border-top: 1px solid #a29750;
+#menu-cidades {
+    margin-left: 70px;
+    margin-top: 10px;
     border-bottom: 1px solid #a29750;
+    border-top: 1px solid #a29750;
 }
 
-.botao {
-    position: absolute;
-    right: 0;
+#menu-cidades ul {
+    font-size: 0.7rem;
+    line-height: 1.5rem;
 }
 
-.btn-warning {
-    background: #a29750;
-    color: #fff5b0;
-    border: none;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    height: 30px;
+#menu-cidades button {
+    font-size: 0.7rem;
+    margin: 5px 0;
 }
 
-.btn-warning:hover {
-    background: #746930;
-    color: #fff5b0;
-    border: none;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-}
 
 /* Responsividade
 -------------------------------------------------*/
