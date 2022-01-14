@@ -95,6 +95,69 @@ header .container {
     top: 0;
 }
 
+/* Formatação do conteúdo
+-------------------------------------------------*/
+
+#conteudo .container {
+    background: url(../img/bg-container.png) repeat-y center;
+}
+
+.texto-principal {
+    background: url(../img/bg-area-principal.png) repeat-x;
+}
+
+h2 {
+    color: #6d6532;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.texto-principal p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Formatação da lista lateral
+-------------------------------------------------*/
+.lista-lateral {
+    background: url(../img/bg-area-lateral.png) repeat-x;
+}
+
+.lista-lateral img {
+    width: 150px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    border: 5px solid #141309;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.lista-lateral p {
+    text-align: justify;
+}
+
+.lista-lateral a {
+    border-bottom: 2px solid #f8f0bf;
+}
+
+.lista-lateral a:hover {
+    background: #fcf6d2;
+}
+
+/* Formatação do rodapé
+-------------------------------------------------*/
+
+footer .container {
+    background: url(../img/bg-rodape.png) repeat-x #fff;
+    padding: 15px;
+    color: #6d6532;
+}
+
 /* Responsividade
 -------------------------------------------------*/
 
