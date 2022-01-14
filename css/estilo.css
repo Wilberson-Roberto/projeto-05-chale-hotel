@@ -18,6 +18,9 @@ header .container {
     left: 0;
 }
 
+/* Formatação do logo
+-------------------------------------------------*/
+
 #logo {
     background: url(../img/logo.png) no-repeat;
     width: 100%;
@@ -36,6 +39,9 @@ header .container {
     right: 0;
 }
 
+/* Formatação do menu cidades
+-------------------------------------------------*/
+
 #menu-cidades {
     margin-left: 70px;
     margin-top: 10px;
@@ -44,15 +50,50 @@ header .container {
 }
 
 #menu-cidades ul {
-    font-size: 0.7rem;
-    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+#menu-cidades a {
+    line-height: 1rem;
+}
+
+.divisor {
+    width: 10px;
+    background: #6d6532;
+    margin: 15.5px 0;
 }
 
 #menu-cidades button {
     font-size: 0.7rem;
-    margin: 5px 0;
+    background: #a29750;
+    color: #fff5b0;
+    border: none;
+    text-transform: uppercase;
+    right: 0;
+    position: absolute;
 }
 
+#menu-cidades button:hover {
+    background: #6d6532;
+}
+
+/* Formatação do menu principal
+-------------------------------------------------*/
+
+#menu-principal {
+    margin-left: 70px;
+    text-transform: uppercase;
+}
+
+#menu-principal a:hover {
+    background: #fff5b0;
+}
+
+.img-fluid {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
 /* Responsividade
 -------------------------------------------------*/
