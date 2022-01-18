@@ -49,6 +49,7 @@ h1 {
     border-top: 1px solid #a29750;
     border-bottom: 1px solid #a29750;
     margin-left: 80px;
+    float: left;
 }
 
 #menu-cidades a {
@@ -81,11 +82,8 @@ h1 {
 
 .depoimento {
     background: url(../img/depoimento.png) no-repeat;
-    width: 100%;
-    height: 164px;
     position: absolute;
-    margin-left: 200px;
-    margin-top: 10px;
+    margin-left: 190px;
 }
 
 #menu-principal ul {
@@ -102,20 +100,77 @@ h1 {
     border-radius: 5px;
 }
 
-/* Formatação do conteúdo
+/* Formatação do conteúdo principal
 -------------------------------------------------*/
 
+#conteudo {
+    background: url(../img/bg-container.png) repeat-y top center;
+}
 
+#conteudo-principal {
+    background: url(../img/bg-area-principal.png) repeat-x;
+}
 
-/* Formatação da lista lateral
+h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #635b2d
+}
+
+#conteudo-principal p {
+    text-align: justify;
+}
+
+/* Formatação da conteúdo lateral
 -------------------------------------------------*/
 
+#conteudo-lateral {
+    background: url(../img/bg-area-lateral.png) repeat-x;
+}
 
+#mini-lista img {
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    border: 5px solid #2b2712;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #635b2d;
+}
+
+#mini-lista p {
+    text-align: justify;
+    color: black;
+}
+
+#mini-lista li {
+    border-bottom: 2px dotted #bbb489;
+}
+
+#mini-lista li:hover {
+    background: #fcf6d4;
+}
 
 /* Formatação do rodapé
 -------------------------------------------------*/
 
+footer {
+    background: #fff url(../img/bg-rodape.png) repeat-x;
+    padding: 10px 0;
+}
 
+footer a {
+    color: #635b2d;
+}
+
+footer a:hover {
+    color: #bbb489;
+}
 
 /* Responsividade
 -------------------------------------------------*/
