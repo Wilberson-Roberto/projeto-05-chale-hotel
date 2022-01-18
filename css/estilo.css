@@ -130,6 +130,10 @@ h2 {
     background: url(../img/bg-area-lateral.png) repeat-x;
 }
 
+#mini-lista {
+    margin-top: 10px;
+}
+
 #mini-lista img {
     width: 150px;
     float: left;
