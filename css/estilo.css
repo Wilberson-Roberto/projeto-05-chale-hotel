@@ -170,10 +170,35 @@ footer {
 
 footer a {
     color: #635b2d;
+    text-align: center;
 }
 
 footer a:hover {
     color: #bbb489;
+}
+
+/* Outras Páginas
+-------------------------------------------------*/
+
+#img-historia img {
+    border: 10px solid #2b2712;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+input.botao {
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #a29750;
+}
+
+input.botao:hover {
+    background: #635b2d;
+    color: #fcf6d4;
 }
 
 /* Responsividade
